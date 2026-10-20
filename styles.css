@@ -1,0 +1,196 @@
+        body{
+            background: linear-gradient(135deg, #f0fdf4 0%, #bae6fd 100%);
+            text-align: center;
+        }
+        .profile-cards{
+            display: inline-block;
+            width: 200px;
+            padding-bottom: 15px;
+            box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.2);
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            background-color: #ffff;
+        }
+        .profile-cards:hover{
+            border: 3px solid black;
+        }
+        .profiles{
+            width: 100%;
+            margin-bottom: 5px;
+            height: 250px;
+            display: block;
+            object-fit: cover;
+        }
+        .names{
+            font-family: arial;
+            font-weight: bold;
+            margin-top: 0;
+            margin-bottom: 5px;
+        }
+        .mutual-counts{
+            font-family: arial;
+            color: grey;
+            font-size: 14px;
+            margin-top: 0;
+            margin-bottom: 5px;
+        }
+        .add-btn{
+            color: white;
+            background-color: rgb(12, 92, 229);
+            border: none;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .add-btn:hover{
+            background-color: rgb(8, 75, 190);
+            transition: 0.19;
+        }
+        .brand-logo{
+           margin: 0 auto;
+           max-width: 600px;
+           width: 100%;
+           margin-bottom: 55px;
+        }
+        .overview-heading{
+            font-family: roboto;
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 50px;
+        }
+        .overview{
+            max-width: 650px; /* Limits the width on desktop */
+            width: 90%;
+            margin:0 auto ;
+            font-family: arial;
+            font-weight: bold;
+            margin-bottom: 50px;
+        }
+        .team-text{
+            font-family: roboto;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .span-red{
+            color: rgb(198, 3, 3);
+        }
+
+
+        .work-title{
+            font-family: roboto;
+            font-weight: bold;
+            font-size: 40px;
+            margin-top: 90px;
+            margin-bottom: 60px;
+        }
+        .works{
+            width: 100%;
+            margin-bottom: 5px;
+            height: 250px;
+            display: block;
+            object-fit: cover;
+        }
+        .work-card{
+            display: inline-block;
+            width: 200px;
+            padding-bottom: 15px;
+            box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.2);
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            background-color: #ffff;
+        }
+        .work-card{
+            display: inline-block;
+            width: 200px;
+            padding-bottom: 15px;
+            box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.2);
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            background-color: #ffff;
+        }
+
+
+         .first-name{
+            width: 150px;
+            height: 40px;
+            border-radius: 10px;
+            padding-left: 15px;
+            border: 1px solid gray;
+            outline: none;
+            margin-bottom: 15px;
+        }
+        .second-name{
+            width: 150px;
+            height: 40px;
+            border-radius: 10px;
+            padding-left: 15px;
+            border: 1px solid gray;
+            outline: none;
+            margin-bottom: 15px;
+            margin-left: 5px;
+        }
+        .email-box{
+            display: block;
+            width: 326px;
+            height: 45px;
+            padding-left: 14px;
+            border-radius:10px;
+            border: 1px solid gray;
+            outline: none;
+            margin-bottom: 15px;
+        }
+        .signup-btn{
+            display: block;
+            width: 345px;
+            height: 45px;
+            padding-left: 14px;
+            border-radius:10px;
+            border: 1px solid gray;
+            outline: none;
+            background-color: rgb(12, 92, 229);
+            color: #ffff;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+
+        }
+           
+
+        .signup-btn:hover{
+            opacity: 0.8;
+        }
+        .container1{
+            display: flex;
+            flex-direction:row;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .container2{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .book-service-text{
+            font-family: roboto;
+            font-size: 23px;
+            font-weight: bold;
+            margin-top: 70px;
+            margin-bottom: 50px;
+        }
+        .wrap-container{
+            margin-bottom: 70px;
+        }
